@@ -1,0 +1,60 @@
+body{
+    background-image: linear-gradient(to right, #648880, #293f50);
+}
+
+.carousel-inner {
+    height: 400px; /* Ajusta esta altura según tus necesidades */
+}
+.carousel-item img {
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen para que se adapte al contenedor */
+}
+
+.carousel-caption {
+    width: 800px;
+    position: absolute;
+    bottom: 175px; /* Ajusta la posición del texto según tus necesidades */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro semi-transparente para mejor legibilidad */
+    padding: 5px;
+    border-radius: 10px;
+}
+.carrusel_1{
+    bottom: 180px;
+}
+
+.carrusel_2{
+    bottom: 190px;
+}
+
+h2{
+    text-align: center;
+}
+
+.video{
+    width: 50%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.video::after{
+    content: "";
+    display: block;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+
+.esdacode_video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
